@@ -1,0 +1,20 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <div class="post">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ post.title }}</li>
+            </ol>
+        </nav>
+
+        {% if post.published_date %}
+            <div class="date text-justify">
+                {{ post.published_date }}
+            </div>
+        {% endif %}
+        <h2 class="text-justify">{{ post.title }}</h2>
+        <p class="text-justify">{{ post.text|linebreaksbr }}</p>
+    </div>
+{% endblock %}
