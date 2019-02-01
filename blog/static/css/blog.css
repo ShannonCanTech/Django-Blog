@@ -19,6 +19,12 @@ h2 a {
     font-family: 'Oswald', sans-serif;
 }
 
+/****
+For post_detail
+h2 {
+    font-family: 'Oswald', sans-serif;
+} */
+
 .page-header {
     background-color: #4b636e;
     margin-top: 0;
@@ -29,4 +35,16 @@ h2 a {
     color:#fff;
     font-size: 36pt;
     text-decoration: none;
+}
+
+.breadcrumb {
+    background-color: #b0bec5;
+}
+
+.breadcrumb-item.active {
+    color: #383d41;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #383d41;
 }
