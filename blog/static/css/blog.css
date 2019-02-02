@@ -48,3 +48,21 @@ h2 {
 .breadcrumb-item+.breadcrumb-item::before {
     color: #383d41;
 }
+
+.form-control {
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color:white;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.save {
+    float: right;
+}

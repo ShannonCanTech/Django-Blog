@@ -1,0 +1,22 @@
+{% extends 'blog/base.html' %}
+
+
+{% block content %}
+<h2>New Post</h2>
+    <form method="POST" class="post-form my-5">
+            {% csrf_token %}
+        <div class="form-row">
+            <div class="form-group">
+                    
+                {{ form.as_p }}
+                <div class="row justify-content-between ml-3">
+                    <button type="submit" class="save btn btn-secondary col-3">Save</button>
+                    <button type="submit" class="save btn btn-secondary col-3">Cancel</button>
+                    <button type="submit" class="save btn btn-outline-danger col-3">Delete</button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+
+{% endblock %}
