@@ -2,6 +2,8 @@
 
 Django blog with Bootstrap 4. Utlizes SQlite3 and default admin function.
 
+*__Note: For CRUD implementation, download and run the branch design-testing.__*
+
 ## Getting Started
 
 You can follow along to [DjangoGirl's Blog tutorial](https://tutorial.djangogirls.org/en/) and add your own touches, properies, and actions.
