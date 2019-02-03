@@ -4,6 +4,10 @@ Django blog with Bootstrap 4. Utlizes SQlite3 and default admin function.
 
 *__Note: For CRUD implementation, download and run the branch design-testing.__*
 
+![screenshot](https://github.com/ShannonCanTech/Django-Blog/blob/master/blog/static/images/home_page_screenshot.png)
+
+![screenshot](https://github.com/ShannonCanTech/Django-Blog/blob/master/blog/static/images/home_page_screenshot.png)
+
 ## Getting Started
 
 You can follow along to [DjangoGirl's Blog tutorial](https://tutorial.djangogirls.org/en/) and add your own touches, properies, and actions.
@@ -137,6 +141,9 @@ To exit:
 >>> exit()
 ```
 
+#### Posts created via admin portal
+![screenshot](https://github.com/ShannonCanTech/Django-Blog/blob/master/blog/static/images/admin_page_screenshot.png)
+
 ## Deployment
 
 Ensure the virtual enviroment is active, migrate, and runserver. You may need to log into the admin portal again but should have no issue viewing your post list and individual post details.
@@ -146,6 +153,9 @@ Ensure the virtual enviroment is active, migrate, and runserver. You may need to
 * [Python](https://docs.python.org/)
 * [Django](https://docs.djangoproject.com/en/2.1/) - Web framework
 * [Bootstrap](https://getbootstrap.com/docs/4.2/getting-started/introduction/) - Front end framework, great tool to get UI/UX friendly basic designs and animations
+
+#### Before Bootstrap
+![screenshot](https://github.com/ShannonCanTech/Django-Blog/blob/master/blog/static/images/home_page_progess_screenshot.png)
 
 ## Authors
 
