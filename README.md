@@ -6,7 +6,7 @@ Django blog with Bootstrap 4. Utlizes SQlite3 and default admin function.
 
 ![screenshot](https://github.com/ShannonCanTech/Django-Blog/blob/master/blog/static/images/home_page_screenshot.png)
 
-![screenshot](https://github.com/ShannonCanTech/Django-Blog/blob/master/blog/static/images/home_page_screenshot.png)
+![screenshot](https://github.com/ShannonCanTech/Django-Blog/blob/master/blog/static/images/post_details_screenshot.png)
 
 ## Getting Started
 
